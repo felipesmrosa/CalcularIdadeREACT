@@ -1,0 +1,27 @@
+// CORES
+$principal: #1c1c1c;
+$secundaria: #212121;
+$verdeEscuro: #32cd32;
+$verdeClaro: #7fff00;
+$contrasteVerde1: #00ff00;
+$contrasteVerde2: #00ff7f;
+
+// font-family
+$fonte: "Exo 2", sans-serif;
+
+// Para não repitir alguns códigos de CSS
+%displayFlexAlignItem {
+  display: flex;
+  align-items: center;
+}
+
+// Pré-definições CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fonte;
+}
+body {
+  background-color: $secundaria;
+}

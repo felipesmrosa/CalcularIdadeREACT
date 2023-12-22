@@ -1,0 +1,21 @@
+@import "../global";
+
+.cabecalho {
+  @extend %displayFlexAlignItem;
+  justify-content: center;
+  padding: 2rem 0;
+  background-color: $principal;
+
+  &--titulo {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: $verdeEscuro;
+    transition: color 0.3s ease-in-out;
+    &:hover {
+      cursor: pointer;
+      color: $verdeClaro;
+    }
+  }
+}
