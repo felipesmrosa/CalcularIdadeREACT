@@ -21,7 +21,15 @@ $fonte: "Exo 2", sans-serif;
   padding: 0;
   box-sizing: border-box;
   font-family: $fonte;
+  outline: none;
 }
 body {
   background-color: $secundaria;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
